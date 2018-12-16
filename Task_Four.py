@@ -17,6 +17,7 @@ import os
 os.environ["PATH"] += os.pathsep + 'C:/Users/Aisha Aijaz Ahmad/Desktop/graphviz-2.38/release/bin'
 
 #importing the required dataset
+#USE THIS DATASET: http://www.macs.hw.ac.uk/~hwloidl/Courses/F21SC/issuu_cw2.json
 Data_List = []
 with open('C:/Users/Aisha Aijaz Ahmad/Desktop/dataset.json', 'r') as json_file:
     for line in json_file:
